@@ -1,0 +1,13 @@
+.WindowBg {
+  background: linear-gradient(to bottom, #06b6d450, transparent) top center no-repeat;
+  animation: 2s ease-in-out 0s infinite alternate raining;
+}
+
+@keyframes raining {
+  0% {
+    background-size: 100% 50%;
+  }
+  100% {
+    background-size: 100% 70%;
+  }
+}

@@ -1,0 +1,12 @@
+.PlayButton stop {
+  stop-color: white;
+  transition: stop-color 150ms ease-in-out;
+}
+
+.PlayButton:hover stop:nth-child(1) {
+  stop-color: #99f6e4;
+}
+
+.PlayButton:hover stop:nth-child(2) {
+  stop-color: #bae6fd;
+}
