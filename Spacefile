@@ -7,3 +7,5 @@ micros:
     commands:
       - npm run build
     serve: dist
+    public_routes:
+      - /*
