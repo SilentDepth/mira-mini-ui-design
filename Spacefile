@@ -1,0 +1,9 @@
+v: 0
+app_name: "Mira Web"
+micros:
+  - name: web
+    src: ./
+    engine: static
+    commands:
+      - npm run build
+    serve: dist
