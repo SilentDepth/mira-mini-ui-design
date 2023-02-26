@@ -4,6 +4,7 @@ import css from './App.module.css'
 import PlayButton from './components/PlayButton.jsx'
 import SoundSelect from './components/SoundSelect.jsx'
 import Sound from './components/Sound.jsx'
+import Citing from './components/Citing.jsx'
 import BG from './assets/bg.jpg'
 
 export default function App () {
@@ -37,6 +38,7 @@ export default function App () {
           <Sound soundId={soundId} play={isPlaying}/>
         </div>
       </div>
+      <Citing/>
     </div>
   )
 }
