@@ -1,0 +1,12 @@
+[
+  { "name": "默认", "url": "/sounds/0.wav" },
+  { "name": "细雨", "url": "/sounds/1.wav" },
+  { "name": "庭院深深", "url": "/sounds/2.wav" },
+  { "name": "门厅走廊", "url": "/sounds/3.wav" },
+  { "name": "暴雨将至", "url": "/sounds/4.wav" },
+  { "name": "润雨", "url": "/sounds/5.wav" },
+  { "name": "夏日雷雨", "url": "/sounds/6.wav" },
+  { "name": "荷塘", "url": "/sounds/7.wav" },
+  { "name": "乌云压顶", "url": "/sounds/8.wav" },
+  { "name": "丛林", "url": "/sounds/9.wav" }
+]

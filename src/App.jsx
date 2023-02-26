@@ -3,11 +3,12 @@ import { useState } from 'react'
 import css from './App.module.css'
 import PlayButton from './components/PlayButton.jsx'
 import SoundSelect from './components/SoundSelect.jsx'
+import Sound from './components/Sound.jsx'
 import BG from './assets/bg.jpg'
 
 export default function App () {
   const [isPlaying, setIsPlaying] = useState(false)
-  const [sound, setSound] = useState('Rain 1')
+  const [soundId, setSoundId] = useState(0)
 
   return (
     <div className="h-screen bg-cover bg-center grid place-items-center" style={{ backgroundImage: `url(${BG})` }}>
@@ -32,7 +33,8 @@ export default function App () {
         {/* Window main */}
         <div className="row-start-2 col-start-1 flex flex-col justify-center items-center">
           <PlayButton className="" isPlaying={isPlaying} onClick={() => setIsPlaying(prev => !prev)}/>
-          <SoundSelect value={sound} onChange={name => setSound(name)} className="mt-2"/>
+          <SoundSelect value={soundId} onChange={name => setSoundId(name)} className="mt-2"/>
+          <Sound soundId={soundId} play={isPlaying}/>
         </div>
       </div>
     </div>
